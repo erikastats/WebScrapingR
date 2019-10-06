@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1570328103211.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "513496262",
+    "id" : "5224385B",
+    "lastKnownWriteTime" : 1570328956,
+    "last_content_update" : 1570328956128,
+    "path" : "~/Estatística/8º Semestre/Estatística Computacional 2/WebScrapingR/SlideWS.Rmd",
+    "project_path" : "SlideWS.Rmd",
+    "properties" : {
+        "cursorPosition" : "103,0",
+        "last_setup_crc32" : "AF5B239F799ae064",
+        "scrollLine" : "87"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
