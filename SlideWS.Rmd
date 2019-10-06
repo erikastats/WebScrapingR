@@ -1,0 +1,94 @@
+---
+title: "Web Scraping"
+subtitle: "Raspando dados"
+output: 
+  revealjs::revealjs_presentation:
+    theme: serif
+    incremental: yes
+    transition: slide
+    css: flexdashboards.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introdução
+
+## O que é
+
+- Técnica de extrair dados de websites.  
+- Tirar vantagem da estrutura das web páginas para extrair e armazenar dados em um formato para análise de dados.  
+
+## O por quê?
+
+- Formato dos Dados: Pegar dados de sites e colocar em formatos desejados prontos para análise.
+- Não precisa copiar e colar: mesmo se fizermos isso, o formato poderá não estar pronto para análise.
+- Sem salvar/baixar: Quando não há opção de salvar/baixar o dado.
+- Automação: É possível automatizar o processo de extração de dados.
+
+## Como
+
+- robots.txt
+- acessar o link
+- extrair/ armazenar/ analizar
+
+## Casos de Uso
+
+- Comparação de preços;
+- Review de produtos;
+- Informações de esportes;
+- Dados de media social.
+
+## Modos de Raspar Dados
+
+- Copiar e colar;
+- Programas específicos;
+- API: Interface de Programação de Aplicação (pt-BR)), cujo acrônimo API provém do Inglês Application Programming Interface. De modo geral, a API é composta por uma série de funções acessíveis somente por programação, e que permitem utilizar características do software menos evidentes ao utilizador tradicional
+- Document Object Model (DOM).
+
+# Conhecimentos adicionais
+
+## Package magrittr
+
+```
+install.packages(magrittr)
+```
+
+![Pipe](pipe.png)
+
+- `x %>% f` é equivalente a `f(x)`
+- `x %>% f(y)` é equivalente a `f(x, y)`
+- `x %>% f %>% g %>% h` é equivalente a `h(g(f(x)))`
+
+```{r}
+x <- c(0.109, 0.359, 0.63, 0.996, 0.515, 0.142, 0.017, 0.829, 0.907)
+
+round(exp(diff(log(x))), 1)
+```
+
+```{r}
+x %>% 
+  log() %>% 
+  diff() %>% 
+  exp() %>% 
+  round(1)
+```
+
+atalho para o pipe `ctrl+shft+m`  
+
+## Packages
+
+- xml2
+- httr
+- rvest
+
+```
+install.packages('rvest')
+```
+## Selector Gadget
+
+- HTML
+- CSS
+
+![Selector](Selector.PNG)
