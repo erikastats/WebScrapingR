@@ -23,30 +23,18 @@ library(tidyverse)
 
 ## Por que usar
 
-- Formato dos Dados: Pegar dados de sites e colocar em formatos desejados prontos para análise.
-- Não precisa copiar e colar: mesmo se fizermos isso, o formato poderá não estar pronto para análise.
-- Sem salvar/baixar: Quando não há opção de salvar/baixar o dado.
-- Automação: É possível automatizar o processo de extração de dados.
-
-## Como
-
-- robots.txt
-- acessar o link
-- extrair/ armazenar/ analizar
+- Formato dos Dados
+- Não precisa copiar e colar
+- Sem salvar/baixar (sem essa opção)
+- Automação
 
 ## Casos de Uso
 
-- Comparação de preços;
-- Review de produtos;
-- Informações de esportes;
-- Dados de media social.
+- Comparação de preços;  
+- Review de produtos;  
+- Informações de esportes;  
+- Dados de media social.  
 
-## Modos de Raspar Dados
-
-- Copiar e colar;
-- Programas específicos;
-- API: Interface de Programação de Aplicação (pt-BR)), cujo acrônimo API provém do Inglês Application Programming Interface. De modo geral, a API é composta por uma série de funções acessíveis somente por programação, e que permitem utilizar características do software menos evidentes ao utilizador tradicional
-- Document Object Model (DOM).
 
 # Conhecimentos adicionais
 
@@ -60,9 +48,9 @@ install.packages(magrittr)
 
 ## Entendendo o Pipe %>% 
 
-- `x %>% f` é equivalente a `f(x)`
-- `x %>% f(y)` é equivalente a `f(x, y)`
-- `x %>% f %>% g %>% h` é equivalente a `h(g(f(x)))`
+- `x %>% f` é equivalente a `f(x)`  
+- `x %>% f(y)` é equivalente a `f(x, y)`  
+- `x %>% f %>% g %>% h` é equivalente a `h(g(f(x)))`  
 
 ## 
 
@@ -84,22 +72,49 @@ atalho para o pipe `ctrl+shft+m`
 
 ## Packages
 
-- xml2
-- httr
-- rvest
+- xml2  
+- httr  
+- rvest  
 
 ```
 install.packages('rvest')
 ```
 ## Selector Gadget
 
-- HTML
-- CSS
+- HTML  
+- CSS  
 
 <img src="Selector.PNG" height="400">
 
 
+
+# Meus Exemplos
+
+## Influencia Artistas
+
+<img src="Artistas.PNG" height="500">
+
+## Bundesliga
+
+<img src="Bundesliga.PNG" height="500">
+
+## CAPES
+
+<img src="Capes.PNG" height="500">
+
+## Tour Beyonce
+
+<img src="Beyonce.PNG" height="500">
+
+## Empregos Estatístico
+
+<img src="Empregos.PNG" height="500">
+
+
 # Aplicação
 
+## 
+- Informação sobre filmes  
+- Remuneração de todos os servidores ativos do Ministério Público de Goiás  
 
-
+# Obrigada

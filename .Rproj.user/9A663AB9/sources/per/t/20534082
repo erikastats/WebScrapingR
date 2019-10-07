@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1570466578737.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2441614413",
+    "id" : "20534082",
+    "lastKnownWriteTime" : 1570477500,
+    "last_content_update" : 1570477503633,
+    "path" : "~/Estatística/8º Semestre/Estatística Computacional 2/WebScrapingR/ScriptWS.R",
+    "project_path" : "ScriptWS.R",
+    "properties" : {
+        "cursorPosition" : "73,0",
+        "scrollLine" : "41",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
